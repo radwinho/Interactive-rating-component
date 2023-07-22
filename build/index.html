@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="font-overpass">
+    <main class="bg-Very-Dark-Blue h-screen flex justify-center items-center p-10">
+        <section id="rating-section" class="px-7 py-4 bg-Dark-Blue w-full md:w-[300px] h-fit rounded-2xl">
+            <img src="images/icon-star.svg" class="bg-Very-Dark-Blue bg-opacity-30 p-3 rounded-full" alt="">
+            <h1 class="text-white text-2xl font-bold my-5">How did we do?</h1>
+            <p class="text-[15px] text-Light-Grey">
+                Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
+            </p>
+           <ul class="flex justify-between mt-5">
+            <li class=" flex justify-center items-center p-5 w-10 h-10  text-Light-Grey hover:text-white cursor-pointer rounded-full bg-Very-Dark-Blue  hover:bg-opacity-100 hover:bg-gray-500  bg-opacity-25">1</li>
+            <li class=" flex justify-center items-center p-5 w-10 h-10  text-Light-Grey hover:text-white cursor-pointer rounded-full bg-Very-Dark-Blue  hover:bg-opacity-100 hover:bg-gray-500  bg-opacity-25">2</li>
+            <li class=" flex justify-center items-center p-5 w-10 h-10  text-Light-Grey hover:text-white cursor-pointer rounded-full bg-Very-Dark-Blue  hover:bg-opacity-100 hover:bg-gray-500  bg-opacity-25">3</li>
+            <li class=" flex justify-center items-center p-5 w-10 h-10  text-Light-Grey hover:text-white cursor-pointer rounded-full bg-Very-Dark-Blue  hover:bg-opacity-100 hover:bg-gray-500  bg-opacity-25">4</li>
+            <li class=" flex justify-center items-center p-5 w-10 h-10  text-Light-Grey hover:text-white cursor-pointer rounded-full bg-Very-Dark-Blue  hover:bg-opacity-100 hover:bg-gray-500  bg-opacity-25">5</li>
+           </ul> 
+
+           <button class="mx-auto block bg-Orange hover:bg-white hover:text-Orange w-full py-2 font-bold rounded-full  mt-5 text-white uppercase">Submit</button>
+        </section>
+
+        <section id="thanks-section" class="px-7 py-4 bg-Dark-Blue w-full md:w-[300px] h-fit rounded-2xl hidden">
+            <img src="images/illustration-thank-you.svg" class="mx-auto pt-5" alt="">
+            <!-- <h1 class="text-white text-2xl font-bold my-5">How did we do?</h1> -->
+            <p class="text-[15px] text-amber-500 text-opacity-70 bg-white bg-opacity-10 px-5 py-1 mt-6 w-fit mx-auto rounded-3xl">
+                You selected <span id="rating-point"></span> out of 5
+            </p>
+            <h2 class="text-white text-3xl  mt-8 text-center">Thank you!</h2>
+
+          <p class="text-Light-Grey text-center text-[15px] mt-3">We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!</p>
+
+        </section>
+       
+    </main>
+    <script src="js/app.js"></script>
+</body>
+</html>
